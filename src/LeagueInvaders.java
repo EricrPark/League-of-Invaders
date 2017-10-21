@@ -5,14 +5,16 @@ import javax.swing.JFrame;
 public class LeagueInvaders {
 	JFrame frame;
 	GamePanel gamePanel;
+	static int width;
+	static int length;
 	public LeagueInvaders() {
 		gamePanel = new GamePanel();
 		frame = new JFrame();
-		int width = 500;
-		int length = 800;
+		width = 500;
+		length = 800;
 		frame.setSize(width, length);
-		frame.setVisible(true);
 		setup();
+		frame.setVisible(true);
 	}
 	void setup() {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
