@@ -1,6 +1,6 @@
 /GameObject.class
 /GamePanel.class
 /LeagueInvaders.class
-/Rocketship.class
-/objectManager.class
 /ObjectManager.class
+/Rocketship.class
+/Projectile.class

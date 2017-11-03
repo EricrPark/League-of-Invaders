@@ -1,7 +1,4 @@
-import java.awt.Graphics;
-
 import javax.swing.JFrame;
-
 public class LeagueInvaders {
 	JFrame frame;
 	GamePanel gamePanel;
